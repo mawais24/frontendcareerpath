@@ -1,0 +1,35 @@
+body {
+  background-color: red;
+}
+
+h1 {
+  color: red;
+  font-size: 50px;
+  background-color: white;
+}
+
+.heading2 {
+  background-color: yellow;
+}
+
+h2 {
+  color: blue;
+}
+
+h4 {
+  color: green;
+}
+
+p {
+  color: white;
+}
+
+.paragraph {
+  color: yellow;
+  font-size: 20px;
+}
+
+.flower {
+  width: 300px;
+  height: 300px;
+}
