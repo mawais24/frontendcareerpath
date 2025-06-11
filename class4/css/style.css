@@ -1,0 +1,38 @@
+.main-div {
+  width: 100%;
+  display: flex;
+}
+
+.box1 {
+  background-color: red;
+  width: 25%;
+}
+.box2 {
+  background-color: blue;
+  width: 50%;
+  position: relative;
+  margin-right: 10px;
+}
+.box3 {
+  background-color: green;
+  width: 25%;
+}
+
+.latest-news {
+  color: white;
+  border-bottom: 1px solid yellow;
+}
+
+.box2-inner {
+  background-color: black;
+  width: 90%;
+  height: 400px;
+  position: relative;
+}
+
+.child-box {
+  background-color: brown;
+  width: 90%;
+  height: 200px;
+  margin: 10;
+}
