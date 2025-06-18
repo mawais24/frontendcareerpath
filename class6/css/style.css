@@ -1,0 +1,52 @@
+.what-we-do {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.what-we-do-heading h4 {
+  color: #aab0bc;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+}
+
+.what-we-do-heading h2 {
+  color: #343f52;
+  font-size: 42px;
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+.what-we-do-content {
+  width: 100%;
+  display: flex;
+  gap: 100px;
+  margin-top: 40px;
+}
+
+.what-we-do-image {
+  width: 50%;
+}
+
+.what-we-do-inner-content {
+  width: 50%;
+}
+
+.web-design-service-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.more-details-btn {
+  background-color: #e9eaf8;
+  border: none;
+  padding: 15px 20px;
+  color: #747ed1;
+  border-radius: 50px;
+}
