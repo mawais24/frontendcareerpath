@@ -1,0 +1,7 @@
+header {
+  display: flex;
+  width: 980px;
+  margin: 0 auto;
+  justify-content: space-between;
+  background-color: blanchedalmond;
+}
