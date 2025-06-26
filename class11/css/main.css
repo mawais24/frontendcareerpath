@@ -1,0 +1,50 @@
+.boxes {
+  width: 200px;
+  height: 200px;
+  background-color: #d099a9;
+  border: 10px solid #205d0e;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 30px;
+}
+
+p {
+  font-size: 24px;
+  color: #e5d51b;
+  font-weight: 400;
+}
+
+.custom-style {
+  font-weight: 900;
+  color: red;
+}
+
+.btn {
+  background-color: transparent;
+  padding: 4px 15px;
+  border: 1px solid red;
+  color: gray;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  background-color: yellow;
+  color: red;
+  font-size: 18px;
+  border: 10px dotted blue;
+}
+
+.tag-inner {
+  width: 27px;
+  height: 27px;
+  border-radius: 100%;
+  border: 1px solid #db9c9c;
+  background-color: #ffdddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}

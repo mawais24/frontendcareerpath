@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+.inner-image {
+  position: relative;
+}
+
+.inner-image {
+  width: 500px;
+  height: auto;
+  display: flex;
+}
+
+.arrowbox {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: red;
+  right: -10px;
+  bottom: 50%;
+}
+
+.image-setup h1 {
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  background-color: blueviolet;
+}
+
+.div-setup {
+  display: flex;
+  gap: 20px;
+}
+
+.boxes {
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+}
+
+.box2 {
+  background-color: blue;
+}
+
+.box3 {
+  background-color: blueviolet;
+}
+
+.list-items li {
+  padding: 20px 0;
+}

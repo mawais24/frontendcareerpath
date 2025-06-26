@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+#top-header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.left-div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.left-div span {
+  color: gray;
+}
+
+h1 {
+  margin: 0;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
