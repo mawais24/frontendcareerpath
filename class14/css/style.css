@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Heebo-ExtraBold";
+  src: url(fonts/Heebo/static/Heebo-ExtraBold.ttf);
+  font-family: "Heebo-ExtraThin";
+  src: url(fonts/Heebo/static/Heebo-Thin.ttf);
+  font-family: "Heebo-ExtraLight";
+  src: url(fonts/Heebo/static/Heebo-ExtraLight.ttf);
+  font-family: "Heebo-Regular";
+  src: url(fonts/Heebo/static/Heebo-Regular.ttf);
+}
+
+body {
+  font-family: "Heebo-Regular", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  width: 100%;
+}
+
+header {
+  padding: 27px 60px;
+  text-align: right;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 33px;
+  justify-content: end;
+}
+
+ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+}
+
+.container {
+  width: 855px;
+  margin: 0 auto;
+}
+
+.inner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.paragraph-box {
+  width: 497px;
+}
+
+.content h1 {
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 60px;
+  margin-bottom: 40px;
+}
+
+.paragraph-box p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 38px;
+}
+
+.content a {
+  background-color: #ff6464;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  padding: 9px 21px 17px 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.content a:hover {
+  background-color: chocolate;
+}
