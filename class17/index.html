@@ -45,26 +45,67 @@
         background-color: red;
       }
 
-      /* @media (min-width: 480px) {
-        body {
-          background-color: blue;
-        }
-      } */
-
       /* @media (max-width: 480px) {
         body {
           background-color: blue;
         }
       } */
-
-      @media (min-width: 700px) and (max-width: 1000px) {
+      h1 {
+        font-size: 50px;
+        color: white;
+      }
+      /* @media (min-width: 700px) and (max-width: 1000px) {
         body {
           background-color: blue;
         }
+        h1 {
+          font-size: 40px;
+        }
+      } */
+
+      h1 {
+        font-size: 50px;
       }
+
+      @media (max-width: 1200px) {
+        h1 {
+          font-size: 40px;
+        }
+      }
+
+      @media (max-width: 1024px) {
+        h1 {
+          font-size: 36px;
+        }
+      }
+
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 28px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        h1 {
+          font-size: 20px;
+        }
+      }
+
+      /* <div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div> */
+
+      /* Mobile:    max-width: 480px
+Tablet:    max-width: 768px
+Laptop:    max-width: 1024px
+Desktop:   max-width: 1200px */
     </style>
   </head>
   <body>
+    <h1>Media Query Testing</h1>
     <!-- <div class="form">
       <form action="home.html" method="get">
         <div class="form-group">
