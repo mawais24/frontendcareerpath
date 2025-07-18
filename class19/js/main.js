@@ -1,14 +1,14 @@
-document.getElementById("para").innerText = "Hello! i am from js file";
+// document.getElementById("para").innerText = "Hello! i am from js file";
 
-let a = 10;
-let b = 20;
+// let a = 10;
+// let b = 20;
 
-let c = a + b; // 30
+// let c = a + b; // 30
 
-c++; // 30 + 1 = 31
-console.log(c);
-c--;
-console.log(c); // 31 - 1 = 30
+// c++; // 30 + 1 = 31
+// console.log(c);
+// c--;
+// console.log(c); // 31 - 1 = 30
 
 let count = 0;
 
